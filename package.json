@@ -1,0 +1,26 @@
+{
+  "name": "typescript2-almond",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:willemliu/typescript2-almond.git"
+  },
+  "author": "Willem Liu",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sync": "^0.1.4",
+    "gulp-typescript": "^3.1.7",
+    "intersection-observer": "^0.3.0",
+    "requirejs": "^2.3.3",
+    "typescript": "^2.3.4"
+  }
+}

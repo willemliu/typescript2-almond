@@ -1,0 +1,7 @@
+{
+  "port": "8000",
+  "directory": "dist",
+  "forbid": [],
+  "rewrite": [],
+  "compress": "true"
+}
