@@ -1,4 +1,7 @@
 import 'intersection-observer';
+import Offset from 'Offset';
+
+let offset = new Offset();
 
 let threshold = [];
 for(let i = 0; i < 1000; ++i) {
@@ -15,6 +18,7 @@ const options = {
 };
 let io = new IntersectionObserver((entries, observer) => {
   console.debug(entries);
+  offset.setText(entries[0].intersectionRatio);
 }, options);
 
-io.observe(document.querySelector('body'));
+io.observe(document.querySelector('.observed-content'));

@@ -7,73 +7,39 @@
 
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-      <meta name="apple-mobile-web-app-title" content="BNR TUI"/>
-      <meta name="description" content=""/>
-      <meta name="keywords" content=""/>
+      <meta name="apple-mobile-web-app-title" content="TypeScript 2, AlmondJS"/>
+      <meta name="description" content="Proof-of-concept for a TypeScript 2 project using AlmondJS and RequireJS to bundle and minify sources."/>
+      <meta name="keywords" content="Proof-of-concept for a TypeScript 2 project using AlmondJS and RequireJS to bundle and minify sources."/>
       <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no"/>
       <title>TypeScript 2, AlmondJS</title>
-      <link rel="stylesheet" href="css/main.css" inline>
+      <style>
+        #offset {
+          position: fixed;
+          top: 0;
+          right: 0;
+          background: green;
+          color: white;
+        }
+        main {
+          height: 300px;
+          overflow: auto;
+        }
+        .unobserved-content, .observed-content {
+          height: 300px;
+        }
+        
+        .observed-content {
+          background: red;
+        }
+      </style>
   </head>
   <body>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
-    <div>testing 213</div>
+    <div id="offset"></div>
+    <main>
+      <div class="unobserved-content">unobserved space</div>
+      <div class="observed-content">observed content</div>
+      <div class="unobserved-content">unobserved space</div>
+    </main>
   </body>
   <script src="js/main.js"></script>
 </html>
